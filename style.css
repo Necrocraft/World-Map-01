@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+    overflow: hidden;
+    text-align-last: center;
+}
+hr {
+    width: 200px;
+}
+.sphere {
+    fill: #4242e4;
+}
+
+.country {
+    fill: lightgreen;
+    stroke: black;
+    stroke-width: 0.05px;
+}
+
+.country:hover {
+    fill: red;
+}
+
+svg {
+    margin-top: 50px;
+}
+
+.d3tooltip {
+    color: white;
+    background-color: black;
+    display: inline-block;
+    padding: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid silver;
+    border-radius: 5px;
+    opacity: 0.6;
+}
